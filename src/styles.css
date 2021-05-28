@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  font-family: Mulish, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgba(125, 121, 111, 0.3) !important;
+}
+
+.navbar-brand {
+  border-radius: 5px;
+  padding: 5px;
+  color: #5892cc !important;
+}
+
+.navbar-brand:hover {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.menu_active {
+  font-weight: bold;
+  color: #f0ba1a !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  border: rgba(0, 0, 0, 0.7);
+}
+
+.navbar a:hover {
+  color: #f0ba1a !important;
+  border-bottom: 2px solid black;
+  margin-bottom: 0;
+}
+
+.btn-edn {
+  border-radius: 20px;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  background-size: 100% 100%, 0% 0%;
+  background: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(226, 178, 88),
+    rgb(240, 163, 63),
+    rgb(182, 119, 182)
+  );
+}
+
+.btn-edn:hover {
+  background-size: 100% 100%, 0% 0%;
+  background-image: linear-gradient(
+    to left,
+    rgb(240, 163, 63),
+    rgb(226, 178, 88),
+    rgb(160, 154, 211)
+  );
+  color: white;
+  box-shadow: 4px 5px 10px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+.my_name {
+  color: #5892cc;
+}
+
+.header-img {
+  padding: 20px;
+  margin-top: 30px !important;
+  text-align: right;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+tr {
+  border: 2px solid black;
+}
+
+th {
+  border: 2px solid black;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 80px;
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  background-size: 100% 100%, 0% 0%;
+  background: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 154, 42),
+    rgb(226, 178, 88)
+  );
+}
+
+.btn:hover {
+  background-size: 100% 100%, 0% 0%;
+  background-image: linear-gradient(
+    to left,
+    rgb(240, 163, 63),
+    rgb(226, 178, 88)
+  );
+  color: white;
+  box-shadow: 4px 5px 10px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
